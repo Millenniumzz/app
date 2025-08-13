@@ -1,16 +1,7 @@
 import React from 'react';
-import { Header,Content,Footer } from './func-componets.js';
-import Calender from './class-components';
+import RefsState from './state-func';
 
-function App() {
-  return (
-    <>
-    <Header/>
-    <p><center><Calender/></center></p>
-    <Content/>
-    <Footer/>
-    </>
-  )
+
+export default function App(){
+  return <RefsState/>
 }
-
-export default App;
